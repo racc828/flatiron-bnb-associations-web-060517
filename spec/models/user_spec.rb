@@ -37,7 +37,7 @@ describe User do
       end
 
       it 'has many reservations through their listing' do
-        expect(katie.reservations).to include(reservation)
+        expect(katie.reservations).to include()
       end
     end
 
